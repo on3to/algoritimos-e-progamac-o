@@ -1,4 +1,10 @@
-valorhora=float(input("digite o valor em horas:"))
-valorminutos=float(input("digite o vlaor em minutos:"))
-totalminutos=(valorhora /60)+valorminutos
-print(f"o total em minutos e:{totalminutos}")
+#entrada
+minuto = int(input("Digite o minuto: "))
+
+#processamento 
+
+horas = minuto //60 
+minutosfinal = minuto - (horas *60)
+
+#saida
+print(f"{horas} horas e {minutosfinal} minutos")
