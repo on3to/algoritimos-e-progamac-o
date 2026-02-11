@@ -6,11 +6,11 @@ n2=int(input("Qual a segunda nota do aluno?"))
 
 n3=int(input("Qual a terceira nota do aluno?"))
 
-p1=2
+p1=int(input("Qual o peso da primeira nota?"))
 
-p2=3
+p2=int(input("Qual o peso da segunda nota?"))
 
-p3=4
+p3=int(input("Qual o peso da terceira nota?"))
 
 #Processamento
 
