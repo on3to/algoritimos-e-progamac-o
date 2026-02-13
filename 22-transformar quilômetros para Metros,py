@@ -1,0 +1,11 @@
+#entrada
+
+km = float(input("Digite o valor em km: "))
+
+#processamento
+
+metros = km * 1000
+
+#saida 
+
+print(f"O equivalente é {metros} metros.")
