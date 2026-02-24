@@ -1,25 +1,20 @@
+from geometriaplana import eh_triangulo, obter_tipo_triangulo
+from utils_oi import escrever, obter_inteiro
+from areatiangulo import area_triangulo
+
+
 def main():
- escrever("*** app triangulo***")
+  escrever('*** App Triângulo ***')
 
- lado1 = obterinteiro("lado 1: ")
- lado2 = obterinteiro("lado 2: ")
- lado3 = obterinteiro("lado 3: ")
+  lado_1 = obter_inteiro('Lado 1: ')
+  lado_2 = obter_inteiro('Lado 2: ')
+  lado_3 = obter_inteiro('Lado 3: ')
 
- resultado= verifircar_se_eh_triangulo(lado1, lado2, lado3)
-
- if resultado == True:
-  escrever("SIM. Os lados forem um triangulo.")
- else:
-  escrever("NAO. Os lados foram un triangulo.")
-
-
-
-
-
-
-
-
-
-  
+  if eh_triangulo(lado_1, lado_2, lado_3):
+    tipo = obter_tipo_triangulo(lado_1, lado_2, lado_3)
+    escrever(f'SIM. Os lados formam um Triângulo {tipo} com area {area_triangulo}.')
+    # Heron
+  else:
+    escrever('NÃO. Os lados não formam um triângulo.')
 
 main()
