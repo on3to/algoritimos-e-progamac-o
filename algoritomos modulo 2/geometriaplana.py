@@ -1,7 +1,3 @@
-# def isTriangle():
-#   ...
-
-
 def eh_triangulo(a: int, b: int, c: int):
   if a <= (b + c) and b <= (a + c) and c <= (a + b):
     return True
