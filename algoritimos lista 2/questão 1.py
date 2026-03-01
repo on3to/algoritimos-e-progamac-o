@@ -19,3 +19,5 @@ def main():
         escrever (f"n existe nenhum numero igual")
     
 main()
+
+#SE COLOCASSE (PRINT) NO LIGAR DE CRIAR "ESCREVER" TBM DARIA CERTO  
