@@ -7,4 +7,4 @@ if 1000 <= num <= 9999:
     if soma**2 == num:
         print("Obedece à característica")
     else:
-        print("Não obedece")
+        print("Não obedece") 
